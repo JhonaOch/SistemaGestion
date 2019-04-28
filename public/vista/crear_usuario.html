@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sistemas de Gestion</title>
+    <link rel="stylesheet" href="Archivos/Pagina.css">
+
+</head>
+<body> 
+
+        <div id="Sesion">
+            <p><strong>Administrador:</strong> Users</p>
+            <a href="#">Cerrar Sesion</a>
+        </div>
+   
+    <div id="contenido">
+    <form action="PHP/Config/datos.php" id="survey" method="POST">
+            <fieldset>
+
+                   
+                <legend>Informacion</legend>
+
+    
+    
+                <div class="formRow">
+                <label for="cedula">Cedula:</label>
+                <input name="cedula" id="cedula" type="text" required />
+                </div>
+
+
+                <div class="formRow">
+                <label for="nombre">Nombre:</label>
+                <input name="nombre" id="nombre" type="text" required/>
+                </div>
+
+                <div class="formRow">
+                <label for="apellido">Apellido:</label>
+                <input name="apellido" id="apellido" type="text" required/>
+                </div>
+
+                <div class="formRow">
+                <label for="direccion">Direccion:</label>
+                <input name="direccion" id="direccion" type="text" required/>
+                </div>
+
+                <div class="formRow">
+                <label for="telefono">Numero Telefono:</label>
+                <input name="telefono" id="telefono" type="tel" required/>
+                </div>
+
+                <div class="formRow">
+                <label for="correo">Correo:</label>
+                <input name="correo" id="correo" type="mail" required/>
+                </div> 
+        
+
+                <div class="formRow">
+                <label for="fecha">Fecha:</label>
+                <input name="fecha" id="fecha" type="date" required/>
+                </div>
+        
+
+              <div>
+                    <p><button type="submit" value="Crear">Crear</button></p>
+                   </div>
+            
+            </fieldset>
+
+    </form>
+               
+    </div>
+   
+
+    
+</body>
+</html>
