@@ -2,8 +2,8 @@
  $servername = "localhost:3309";
  $username = "root";
  $password = "";
- $dbname = "hypermedial";
- // Create connection
+ $dbname = "hipermedial";
+ // Create connections
  $conn = new mysqli($servername, $username, $password, $dbname);
  // Check connection
  if ($conn->connect_error) {
