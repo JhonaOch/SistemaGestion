@@ -16,7 +16,7 @@
         </div>
    
     <div id="contenido">
-    <form action="PHP/Config/datos.php" id="survey" method="POST">
+    <form action="../controladores/crear_usuario.php" id="survey" method="POST">
             <fieldset>
 
                    
@@ -50,16 +50,24 @@
                 <input name="telefono" id="telefono" type="tel" required/>
                 </div>
 
-                <div class="formRow">
-                <label for="correo">Correo:</label>
-                <input name="correo" id="correo" type="mail" required/>
-                </div> 
+    
         
 
                 <div class="formRow">
                 <label for="fecha">Fecha:</label>
                 <input name="fecha" id="fecha" type="date" required/>
                 </div>
+
+                
+
+                <div class="formRow" id="correo">
+                    <label for="correo">Correo:</label>
+                    <input name="correo" id="correo" type="mail" required/>
+                    </div> 
+                 <div class="formRow" id="correo">
+                <label for="contrasena">Contraseña:</label>
+                <input name="contrasena" id="contrasena" type="password" required/>
+                </div> 
         
 
               <div>
