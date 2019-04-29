@@ -39,6 +39,21 @@ div.formRow > * {
     clear: both;
   
 }
+#contenido2{
+    width: 25%;
+    margin:0 0 0 5px;
+    padding: 5px 20px;
+    border-width: 5px;
+    border-color: rgb(202, 209, 191);
+    border-radius: 20px; 
+    text-align: center;
+    float: left;
+    font-size: 130%;
+    background-color: aquamarine;
+  
+    clear: both;
+  
+}
 legend{
     font-size: 150%;
 
