@@ -1,0 +1,34 @@
+table{
+    top: 200px;
+    width: 80%;
+    height: 10px;
+    margin-left: center;
+    border: 2px solid #fff;
+    border-collapse: collapse;
+    color:rgb(0, 34, 97);
+    
+}
+table th{
+    border: 2px solid rgb(0, 0, 0);
+    padding: 5px;
+    background: red;
+   
+    
+
+}
+table td{
+    border: 2px solid rgb(39, 109, 131);
+    padding: 5px;
+    background:aquamarine;
+    
+}
+
+div>table{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   
+}
+h1{
+    text-align: center;
+}
